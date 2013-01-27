@@ -1,8 +1,11 @@
 {
   "name": "stream-glue",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "glues files together with ffmpeg",
   "main": "glue.js",
+  "bin":          {
+    "stream-glue":     "./bin/stream-glue"
+  },  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
