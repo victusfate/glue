@@ -8,14 +8,14 @@ if (arguments < 2) {
 	process.exit(1);
 }
 
-g.getStreamFile(inName, function(err, name, oname) {
+g.getStreamFile(inName, function(err, name, audioName, oname) {
     console.log('getStreamFile callback called');
     if (err) {
         console.log(err); 
         throw err; 
     }
     else {
-        g.launchGlue(name,oname);
+        g.launchGlue(name,audioName,oname);
     }
 }.bind(this));
 
