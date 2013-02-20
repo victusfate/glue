@@ -10,5 +10,6 @@ to install:
 or grab the repo
 
 to use:
-<pre>node glue http://streamUrl.m3u8</pre>
+<pre>stream-glue http://streamUrl.m3u8</pre>
+
 
