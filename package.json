@@ -1,6 +1,6 @@
 {
   "name": "stream-glue",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "glues files together with ffmpeg",
   "main": "glue.js",
   "bin":          {
