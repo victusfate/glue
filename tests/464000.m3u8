@@ -1,0 +1,27 @@
+#EXTM3U
+#EXT-X-TARGETDURATION:10
+#EXT-X-MEDIA-SEQUENCE:0
+#EXT-X-PLAYLIST-TYPE:VOD
+#EXTINF:10, no desc
+https://github.com/victusfate/glue/blob/master/tests/fileSequence0.ts?raw=true
+#EXTINF:10, no desc
+https://github.com/victusfate/glue/blob/master/tests/fileSequence1.ts?raw=true
+#EXTINF:10, no desc
+https://github.com/victusfate/glue/blob/master/tests/fileSequence2.ts?raw=true
+#EXTINF:10, no desc
+https://github.com/victusfate/glue/blob/master/tests/fileSequence3.ts?raw=true
+#EXTINF:10, no desc
+https://github.com/victusfate/glue/blob/master/tests/fileSequence4.ts?raw=true
+#EXTINF:10, no desc
+https://github.com/victusfate/glue/blob/master/tests/fileSequence5.ts?raw=true
+#EXTINF:10, no desc
+https://github.com/victusfate/glue/blob/master/tests/fileSequence6.ts?raw=true
+#EXTINF:10, no desc
+https://github.com/victusfate/glue/blob/master/tests/fileSequence7.ts?raw=true
+#EXTINF:10, no desc
+https://github.com/victusfate/glue/blob/master/tests/fileSequence8.ts?raw=true
+#EXTINF:10, no desc
+https://github.com/victusfate/glue/blob/master/tests/fileSequence9.ts?raw=true
+#EXTINF:10, no desc
+https://github.com/victusfate/glue/blob/master/tests/fileSequence10.ts?raw=true
+#EXT-X-ENDLIST

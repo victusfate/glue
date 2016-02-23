@@ -1,0 +1,27 @@
+#EXTM3U
+#EXT-X-TARGETDURATION:10
+#EXT-X-MEDIA-SEQUENCE:0
+#EXT-X-PLAYLIST-TYPE:VOD
+#EXTINF:10, no desc
+fileSequence0.ts
+#EXTINF:10, no desc
+fileSequence1.ts
+#EXTINF:10, no desc
+fileSequence2.ts
+#EXTINF:10, no desc
+fileSequence3.ts
+#EXTINF:10, no desc
+fileSequence4.ts
+#EXTINF:10, no desc
+fileSequence5.ts
+#EXTINF:10, no desc
+fileSequence6.ts
+#EXTINF:10, no desc
+fileSequence7.ts
+#EXTINF:10, no desc
+fileSequence8.ts
+#EXTINF:10, no desc
+fileSequence9.ts
+#EXTINF:10, no desc
+fileSequence10.ts
+#EXT-X-ENDLIST

@@ -1,0 +1,27 @@
+{
+  "name": "stream-glue",
+  "version": "0.2.5",
+  "description": "glues files together with ffmpeg",
+  "main": "glue.js",
+  "bin":          {
+    "stream-glue":     "./bin/stream-glue"
+  },  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "ffmpeg",
+    "video",
+    "concatenate"
+  ],
+  "dependencies": {
+    "async": "0.2.5"
+  },
+  "repository" : { 
+    "type" : "git", 
+    "url"  : "https://github.com/victusfate/glue.git"
+  },  
+  "author": "Mark Essel",
+  "license": "BSD"
+}
