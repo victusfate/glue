@@ -15,7 +15,15 @@ g.getStreamFile(inName, function(err, name, audioName, oname, urlPath) {
         throw err; 
     }
     else {
-        g.launchGlue(urlPath,name,audioName,oname);
+        g.launchGlue(urlPath,name,audioName,oname, function(err) {
+            if (err) {
+                console.log(err);
+                throw err;
+            } 
+            else {
+                console.log('stream-glue success');
+            }
+        });
     }
 }.bind(this));
 
