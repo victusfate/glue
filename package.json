@@ -2,7 +2,7 @@
   "name": "stream-glue",
   "version": "0.2.5",
   "description": "glues files together with ffmpeg",
-  "main": "lib/glueUtil.js",
+  "main": "lib/glue.js",
   "bin":          {
     "stream-glue":     "./bin/stream-glue"
   },  
@@ -15,6 +15,9 @@
     "video",
     "concatenate"
   ],
+  "engines": {
+    "node": "5.0.0"
+  },  
   "dependencies": {
     "async": "0.2.5"
   },
