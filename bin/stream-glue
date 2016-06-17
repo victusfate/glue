@@ -12,7 +12,11 @@ if (arguments < 2) {
 var inName          = arguments[0];
 var outName         = arguments[1];
 
-g.glue(inName, outName).then( (result) => {
+var fProgress       = (NDone,NTotal) => {
+  console.log({ action: 'glue.exec', fFraction: NDone/NTotal });
+}
+
+g.glue(inName, outName, fProgress).then( (result) => {
   console.log({ action:'stream-glue.success',  outputFile:result });
   process.exit(0);
 })
